@@ -1,10 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
+import { MdOutlineMailOutline } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
@@ -23,27 +22,17 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
+                href="mailto:sintasyfa5@gmail.com"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillGithub />
+                <MdOutlineMailOutline />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.linkedin.com/in/sinta-sipa-atul-puazah-b47b81247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

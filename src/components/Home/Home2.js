@@ -1,12 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar2.png";
+import myImg from "../../Assets/avatar3.png";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillInstagram } from "react-icons/ai";
+import { MdOutlineMailOutline } from 'react-icons/md';
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -19,42 +16,32 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              I am a communication graduate with a specialization in broadcasting from
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple">Telkom University. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+              strong foundation in effective communication strategies. My proficiency in public speaking allows me to
+              convey ideas with confidence and clarity.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              My passion for the arts fuels my creativity, and I find joy in activities
+              such as editing and graphic design, where I can bring visual concepts to life.
+              <br />
+              <br />
+              Through my academic journey
+              and personal interests, I have developed a well-rounded skill set that merges communication expertise with
+              artistic flair.
+              <br />
+              <br />
+              Additionally, I am adept in utilizing tools such as Microsoft Excel, Google Sheets, and Microsoft
+              word, which enhances my ability to organize, analyze data, and create visually appealing content.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} style={{ width: '170px', height: '230px' }} className="img-fluid" alt="avatar" />
+              <img src={myImg} style={{ width: '250px', height: '250px' }} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -67,27 +54,17 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="mailto:sintasyfa5@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiFillGithub />
+                  <MdOutlineMailOutline />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/sinta-sipa-atul-puazah-b47b81247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
